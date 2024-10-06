@@ -113,7 +113,7 @@ function EditCharacter() {
 
           <div className="card-actions justify-end gap-3 mt-10">
             <button
-              className="btn bg-orange-800 text-white"
+              className="btn bg-green-700 text-white"
               onClick={() => {
                 editData();
               }}

@@ -44,11 +44,11 @@ function Details() {
           <img src={data.image} className="max-w-sm rounded-lg shadow-2xl" />
           <div className="flex flex-col justify-center gap-5 ">
             <h1 className="text-5xl font-bold">
-              Name: <span className="text-blue-800">{data.name}</span>
+              Name: <span className="text-blue-400">{data.name}</span>
             </h1>
 
             <h1 className="text-5xl font-bold">
-              gender: <span className="text-blue-800">{data.gender}</span>
+              gender: <span className="text-blue-400">{data.gender}</span>
             </h1>
             <button
               onClick={() => {

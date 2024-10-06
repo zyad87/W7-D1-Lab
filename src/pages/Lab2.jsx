@@ -68,9 +68,13 @@ function Lab2() {
     <div className="flex flex-col justify-center items-center">
       <NavBar />
       {deleteAlert && (
-        <div className="alert alert-success fixed z-50 w-60 top-20 right-5">
-          <span>Item has been deleted</span>
-        </div>
+        <div className="alert alert-success fixed z-50 w-72 top-20 right-5 flex items-center gap-2 p-4 rounded-lg shadow-lg border border-green-600 bg-green-100 text-green-800">
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+  </svg>
+  <span>Item has been successfully deleted</span>
+</div>
+
       )}
 
       <div className="flex flex-wrap justify-center items-center gap-5 p-5 flex-col">
@@ -81,7 +85,7 @@ function Lab2() {
           />
           <div className=" w-[100%] ">
             <div className="divider"></div>
-            <div className="text-center tracking-widest my-5 text-3xl">
+            <div className="text-center tracking-widest my-5 text-xl2">
               To Add New Character
             </div>
           </div>

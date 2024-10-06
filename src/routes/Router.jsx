@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Lab2 from '../pages/Lab2';
 import Details from '../pages/Details';

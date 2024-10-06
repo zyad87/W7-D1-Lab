@@ -2,7 +2,7 @@ import React from 'react';
 
 function CardLab2(props) {
   return (
-    <div className="card card-compact bg-base-100 w-96 max-sm:w-80 shadow-xl  flex flex-col justify-center items-center ">
+    <div className="card card-compact bg-gray-900 w-96 max-sm:w-80 shadow-xl flex flex-col justify-center items-center ">
       <figure className="min-w-full max-h-[300px]">
         <img className="w-full" src={props.img} />
       </figure>
@@ -14,11 +14,17 @@ function CardLab2(props) {
             onClick={props.onClick}
             className="btn btn-neutral text-white"
           >
-            Show Details
+           Details
+          </button>
+          <button
+            onClick={props.onClickEdit}
+            className="btn bg-cyan-600 text-white"
+          >
+            Edit
           </button>
           <button
             onClick={props.onClickDel}
-            className="btn bg-red-900 text-white"
+            className="btn bg-red-800 text-white"
           >
             Delete
           </button>
